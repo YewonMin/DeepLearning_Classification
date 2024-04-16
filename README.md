@@ -87,7 +87,7 @@ DeepLearning Course HW2 - MNIST Classfication
 - Dropout & Weight Decay 적용
 - 성능 결과
 ![image](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/e6ae8028-31fe-4572-bc74-663d49c535ab)
-![lenet5_curves_regularization](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/7cf0b0e7-5191-4715-807a-966af714d240)
+![lenet5_curves_regularization]![lenet5_curves_regularization](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/3785a5ea-0543-49b6-85d7-339909c629fc)
 
 * 기본적인 LeNet-5 모델에서의 성능은, 학습 및 테스트 과정에서의 손실 값과 정확도가 점차적으로 개선되는 것을 확인할 수 있습니다. 특히, 테스트 정확도는 대략 98.92%에 달함
 * Dropout & Weight Decay를 추가해서 정규화 기법을 적용한 모델의 경우, 학습 및 테스트 과정에서의 성능 역시 개선되었음. 특히, 손실 값은 약간 증가하였지만, 이는 모델이 더 일반화되었음을 나타냄. 또한, 테스트 정확도는 약 99.17%로 더 높은 값을 보여줌. 이는 정규화 기법이 모델의 과적합을 방지하고 일반화 성능을 향상시킨 결과로 해석됨
