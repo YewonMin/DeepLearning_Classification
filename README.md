@@ -82,13 +82,13 @@ DeepLearning Course HW2 - MNIST Classfication
 ![image](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/aaa67cf7-d61f-4214-a04e-d9ab12ebcbf5)
 - 두 모델의 훈련 및 테스트 정확도를 살펴보면, LeNet-5의 train 및 test Acuury가 Custom MLP보다 거의 비슷하거나 항상 높음
 - 따라서, 위의 결과를 통해 기본 basic LeNet-5에서는 MNIST 데이터셋에서 Custom MLP보다 더 좋은 예측 성능을 보인다는 것을 알 수 있다.
-- 
+
 #### 3.Regularization Techniques for Improving LeNet-5 Model
+- Dropout & Weight Decay 적용
+- 성능 결과
+![image](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/e6ae8028-31fe-4572-bc74-663d49c535ab)
+![lenet5_curves_regularization](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/7cf0b0e7-5191-4715-807a-966af714d240)
 
-
-
-
-
-
-
-
+* 기본적인 LeNet-5 모델에서의 성능은, 학습 및 테스트 과정에서의 손실 값과 정확도가 점차적으로 개선되는 것을 확인할 수 있습니다. 특히, 테스트 정확도는 대략 98.92%에 달함
+* Dropout & Weight Decay를 추가해서 정규화 기법을 적용한 모델의 경우, 학습 및 테스트 과정에서의 성능 역시 개선되었음. 특히, 손실 값은 약간 증가하였지만, 이는 모델이 더 일반화되었음을 나타냄. 또한, 테스트 정확도는 약 99.17%로 더 높은 값을 보여줌. 이는 정규화 기법이 모델의 과적합을 방지하고 일반화 성능을 향상시킨 결과로 해석됨
+* 따라서, 정규화 기법을 적용함으로써 모델의 성능이 개선되었으며, 특히 테스트 정확도에서 뚜렷한 향상을 보임. 결과적으로, 모델의 안정성과 일반화 능력이 향상되었음을 알 수 있음.
