@@ -7,6 +7,7 @@ DeepLearning Course HW2 - MNIST Classfication
 ├── dataset.py: MNIST 데이터셋을 로드하고 전처리하는 코드가 포함되어 있습니다.
 ├── model.py: LeNet-5와 사용자 정의 MLP 모델을 정의하는 코드가 포함되어 있습니다.
 ├── main.py: 모델을 훈련하고 평가하는 메인 코드가 포함되어 있습니다.
+```
 
 ## How to use
 - 데이터셋 다운로드: MNIST 데이터셋을 다운로드하고 데이터 디렉토리에 압축을 해제합니다.
@@ -17,7 +18,6 @@ DeepLearning Course HW2 - MNIST Classfication
 
 ## Result (Report)
 ### 1. Plot of Training and Testing Statistics
-
 
 ### 2. Comparison between LeNet-5 and Custom MLP
 
