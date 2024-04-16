@@ -17,11 +17,11 @@ DeepLearning Course HW2 - MNIST Classfication
 - 모델 평가: 훈련된 모델의 성능을 평가하고 결과를 확인합니다.
 
 ## Result (Report)
-### 1. Plot of Training and Testing Statistics
+#### 1. Plot of Training and Testing Statistics
 
-### 2. Comparison between LeNet-5 and Custom MLP
+#### 2. Comparison between LeNet-5 and Custom MLP
 
-### 3.Regularization Techniques for Improving LeNet-5 Model
+#### 3.Regularization Techniques for Improving LeNet-5 Model
 
 
 
