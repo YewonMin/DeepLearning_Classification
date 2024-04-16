@@ -18,7 +18,7 @@ DeepLearning Course HW2 - MNIST Classfication
 
 ## Result (Report)
 #### 1. Plot of Training and Testing Statistics
-
+![cmlp_curves](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/286c21b2-b379-4a0f-95c2-52330fcc0813)
 #### 2. Comparison between LeNet-5 and Custom MLP
 
 #### 3.Regularization Techniques for Improving LeNet-5 Model
