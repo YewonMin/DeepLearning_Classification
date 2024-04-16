@@ -21,7 +21,7 @@ DeepLearning Course HW2 - MNIST Classfication
 - CustomMLP (Loss & Accuracy)
 ![cmlp_curves](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/703bffeb-bd4b-48c7-9a33-d4f7492768c8)
 - LeNet5 (Loss & Accuracy)
-![lenet5_curves]![lenet5_curves](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/e6e7b53e-8bc7-4746-93c5-5db74d5e4165)
+![lenet5_curves](https://github.com/YewonMin/DeepLearning_Classification/assets/108216502/e6e7b53e-8bc7-4746-93c5-5db74d5e4165)
 #### 2. Comparison between LeNet-5 and Custom MLP
 
 #### 3.Regularization Techniques for Improving LeNet-5 Model
