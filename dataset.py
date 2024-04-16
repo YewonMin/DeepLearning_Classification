@@ -46,7 +46,7 @@ class MNIST(Dataset):
 
 if __name__ == '__main__':
     # write test codes to verify your implementations
-    dataset = MNIST(data_dir='path_to_your_MNIST_data_directory')
+    dataset = MNIST(data_dir='../deep_hw2/mnist-classification/data/train/')
     print(len(dataset))
     img, label = dataset[0]
     print(img.shape, label)
